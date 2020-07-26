@@ -1,8 +1,9 @@
 const moves = ['north', 'north', 'west', 'west', 'north', 'east','north'] 
 
-
 const finalPosition = function (moves) {
-  let northSouth = [] 
+  // this is going to run the y axis
+  let northSouth = []
+  // this is going to run the x axis
   let eastWest = []
 
   for (let move of moves){
@@ -40,4 +41,3 @@ const finalPosition = function (moves) {
 };
 
 console.log(finalPosition(moves));
-
